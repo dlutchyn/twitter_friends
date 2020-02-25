@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e24102051bd64673830ad0d90b88d7f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e24102051bd64673830ad0d90b88d7f1" ></div>
+        
+</body>
+<script>    
+    
+            var map_e24102051bd64673830ad0d90b88d7f1 = L.map(
+                "map_e24102051bd64673830ad0d90b88d7f1",
+                {
+                    center: [49.8397, 24.0297],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    ZoomStart: 2,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9f259df5381b4bed9f1c7b05ea07fe47 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e24102051bd64673830ad0d90b88d7f1);
+        
+    
+            var feature_group_2feffb8396dd40428978838030e48617 = L.featureGroup(
+                {}
+            ).addTo(map_e24102051bd64673830ad0d90b88d7f1);
+        
+    
+            var marker_63a00e19baaf41c1896d44df08c4472c = L.marker(
+                [49.841952, 24.0315921],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_7f6b680ec2804caea2452c2ea6a8932b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75dd32e98b8d419dba91145271d1fb60 = $(`<div id="html_75dd32e98b8d419dba91145271d1fb60" style="width: 100.0%; height: 100.0%;">name: RavenbornJB location:Lviv,  Ukraine</div>`)[0];
+            popup_7f6b680ec2804caea2452c2ea6a8932b.setContent(html_75dd32e98b8d419dba91145271d1fb60);
+        
+
+        marker_63a00e19baaf41c1896d44df08c4472c.bindPopup(popup_7f6b680ec2804caea2452c2ea6a8932b)
+        ;
+
+        
+    
+    
+            var marker_6382e9518b37427391e88728cfe002c4 = L.marker(
+                [49.4871968, 31.2718321],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_f959102afe10413894b768b2b64bba7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f880034c9e964e75ba7541d7e6dc782c = $(`<div id="html_f880034c9e964e75ba7541d7e6dc782c" style="width: 100.0%; height: 100.0%;">name: Maxymilian location:Україна</div>`)[0];
+            popup_f959102afe10413894b768b2b64bba7a.setContent(html_f880034c9e964e75ba7541d7e6dc782c);
+        
+
+        marker_6382e9518b37427391e88728cfe002c4.bindPopup(popup_f959102afe10413894b768b2b64bba7a)
+        ;
+
+        
+    
+    
+            var marker_504fa492badb40e390084185b58d4412 = L.marker(
+                [49.841952, 24.0315921],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_781fac2e91e7432595c2cfa32156d778 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a282f1ea9bf84b83a8c538718846465e = $(`<div id="html_a282f1ea9bf84b83a8c538718846465e" style="width: 100.0%; height: 100.0%;">name: BogdanVey location:Львів, Україна</div>`)[0];
+            popup_781fac2e91e7432595c2cfa32156d778.setContent(html_a282f1ea9bf84b83a8c538718846465e);
+        
+
+        marker_504fa492badb40e390084185b58d4412.bindPopup(popup_781fac2e91e7432595c2cfa32156d778)
+        ;
+
+        
+    
+    
+            var marker_58dcac837b0641b1818e547b0f367c38 = L.marker(
+                [49.4871968, 31.2718321],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_78a4f0c7d1c54868bf04709f51e7b9b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e78944b4fd945328d795bceb752a57a = $(`<div id="html_2e78944b4fd945328d795bceb752a57a" style="width: 100.0%; height: 100.0%;">name: Nazariy Kuspys location:Украина</div>`)[0];
+            popup_78a4f0c7d1c54868bf04709f51e7b9b8.setContent(html_2e78944b4fd945328d795bceb752a57a);
+        
+
+        marker_58dcac837b0641b1818e547b0f367c38.bindPopup(popup_78a4f0c7d1c54868bf04709f51e7b9b8)
+        ;
+
+        
+    
+    
+            var marker_511723763837457795e6b46ae2043d95 = L.marker(
+                [49.841952, 24.0315921],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_175130ae60b64dc8a8a96596e0e35c8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16f6f16fc4b04ceab498c1d033ac9184 = $(`<div id="html_16f6f16fc4b04ceab498c1d033ac9184" style="width: 100.0%; height: 100.0%;">name: viri_aldi location:Lviv</div>`)[0];
+            popup_175130ae60b64dc8a8a96596e0e35c8e.setContent(html_16f6f16fc4b04ceab498c1d033ac9184);
+        
+
+        marker_511723763837457795e6b46ae2043d95.bindPopup(popup_175130ae60b64dc8a8a96596e0e35c8e)
+        ;
+
+        
+    
+    
+            var marker_f609b4a1a5a441519500634260cc6913 = L.marker(
+                [49.4871968, 31.2718321],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_c1fe3703f3e6430287aab0183a9ea09b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bd0d2e34bbc4f3f865aa9767c11972b = $(`<div id="html_6bd0d2e34bbc4f3f865aa9767c11972b" style="width: 100.0%; height: 100.0%;">name: Володимир Зеленський location:Україна</div>`)[0];
+            popup_c1fe3703f3e6430287aab0183a9ea09b.setContent(html_6bd0d2e34bbc4f3f865aa9767c11972b);
+        
+
+        marker_f609b4a1a5a441519500634260cc6913.bindPopup(popup_c1fe3703f3e6430287aab0183a9ea09b)
+        ;
+
+        
+    
+    
+            var marker_f2c47b3ae5cf46238a6fbf41b784cd0c = L.marker(
+                [40.7127281, -74.0060152],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_0b86d2f23ff640a78ea2b0a186588065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40e0c1304e6478e9cf7fab85db59825 = $(`<div id="html_b40e0c1304e6478e9cf7fab85db59825" style="width: 100.0%; height: 100.0%;">name: The New York Times location:New York City</div>`)[0];
+            popup_0b86d2f23ff640a78ea2b0a186588065.setContent(html_b40e0c1304e6478e9cf7fab85db59825);
+        
+
+        marker_f2c47b3ae5cf46238a6fbf41b784cd0c.bindPopup(popup_0b86d2f23ff640a78ea2b0a186588065)
+        ;
+
+        
+    
+    
+            var marker_59658dcddaa74a4c962457f3e62599e9 = L.marker(
+                [38.8948932, -77.0365529],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_d225d080a4c04279bcdc923f39187b2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5e71e26b0254247b2747f7440288076 = $(`<div id="html_c5e71e26b0254247b2747f7440288076" style="width: 100.0%; height: 100.0%;">name: Donald J. Trump location:Washington, DC</div>`)[0];
+            popup_d225d080a4c04279bcdc923f39187b2a.setContent(html_c5e71e26b0254247b2747f7440288076);
+        
+
+        marker_59658dcddaa74a4c962457f3e62599e9.bindPopup(popup_d225d080a4c04279bcdc923f39187b2a)
+        ;
+
+        
+    
+    
+            var marker_12cf296a6a164efd8e0d5674297eae42 = L.marker(
+                [49.4871968, 31.2718321],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_1a779979986d4336b13c4e4b8180c888 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dbbceec95a14e1d9a33fab71d291453 = $(`<div id="html_1dbbceec95a14e1d9a33fab71d291453" style="width: 100.0%; height: 100.0%;">name: Oleg 💡〰️🌈 location:Україна</div>`)[0];
+            popup_1a779979986d4336b13c4e4b8180c888.setContent(html_1dbbceec95a14e1d9a33fab71d291453);
+        
+
+        marker_12cf296a6a164efd8e0d5674297eae42.bindPopup(popup_1a779979986d4336b13c4e4b8180c888)
+        ;
+
+        
+    
+    
+            var marker_6fc5b9c1ed534bdb9b02f512d2267e24 = L.marker(
+                [49.9902794, 36.2303893],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_2c0e3f10d0a14481a2d905ff3bcd2bfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33dc5e29142c4616a029fccfc5769f88 = $(`<div id="html_33dc5e29142c4616a029fccfc5769f88" style="width: 100.0%; height: 100.0%;">name: Zeus // My book is OUT NOW location:Kharkiv, Ukraine</div>`)[0];
+            popup_2c0e3f10d0a14481a2d905ff3bcd2bfd.setContent(html_33dc5e29142c4616a029fccfc5769f88);
+        
+
+        marker_6fc5b9c1ed534bdb9b02f512d2267e24.bindPopup(popup_2c0e3f10d0a14481a2d905ff3bcd2bfd)
+        ;
+
+        
+    
+    
+            var marker_2a92793e6c0e47688f5827fe00e42be3 = L.marker(
+                [55.4792046, 37.3273304],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_4d2c3f55df6543bc8628f96f28d4614a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68f44cb2673c446b942a15fa214314ed = $(`<div id="html_68f44cb2673c446b942a15fa214314ed" style="width: 100.0%; height: 100.0%;">name: Никита Ковальчук location:Москва</div>`)[0];
+            popup_4d2c3f55df6543bc8628f96f28d4614a.setContent(html_68f44cb2673c446b942a15fa214314ed);
+        
+
+        marker_2a92793e6c0e47688f5827fe00e42be3.bindPopup(popup_4d2c3f55df6543bc8628f96f28d4614a)
+        ;
+
+        
+    
+    
+            var marker_c8818fb76eff479eaf9f6de3d4eecd29 = L.marker(
+                [43.2363924, 76.9457275],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_fb5f2d98cbea4f7d98266987a63391fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d42e9b46b214b4f82c460644fc320e2 = $(`<div id="html_1d42e9b46b214b4f82c460644fc320e2" style="width: 100.0%; height: 100.0%;">name: AdreN location:Almaty</div>`)[0];
+            popup_fb5f2d98cbea4f7d98266987a63391fa.setContent(html_1d42e9b46b214b4f82c460644fc320e2);
+        
+
+        marker_c8818fb76eff479eaf9f6de3d4eecd29.bindPopup(popup_fb5f2d98cbea4f7d98266987a63391fa)
+        ;
+
+        
+    
+    
+            var marker_bd7b6ab041a544108435f1f78c446cc3 = L.marker(
+                [49.4871968, 31.2718321],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_9288242d7a444cd3ab4bb295406dd951 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df8bf1a5250544cda5bfa5b07043d211 = $(`<div id="html_df8bf1a5250544cda5bfa5b07043d211" style="width: 100.0%; height: 100.0%;">name: b2ru location:Ukraine</div>`)[0];
+            popup_9288242d7a444cd3ab4bb295406dd951.setContent(html_df8bf1a5250544cda5bfa5b07043d211);
+        
+
+        marker_bd7b6ab041a544108435f1f78c446cc3.bindPopup(popup_9288242d7a444cd3ab4bb295406dd951)
+        ;
+
+        
+    
+    
+            var marker_837c9f3a1f074d689d29cc7d7e77999e = L.marker(
+                [37.62814305, -122.42521678541321],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_1f3a47ddc3dc4b6f8c71057ad3ea860a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd59c59abbf6495e9992414221ed632f = $(`<div id="html_cd59c59abbf6495e9992414221ed632f" style="width: 100.0%; height: 100.0%;">name: Андрей Колесник location:YouTube</div>`)[0];
+            popup_1f3a47ddc3dc4b6f8c71057ad3ea860a.setContent(html_cd59c59abbf6495e9992414221ed632f);
+        
+
+        marker_837c9f3a1f074d689d29cc7d7e77999e.bindPopup(popup_1f3a47ddc3dc4b6f8c71057ad3ea860a)
+        ;
+
+        
+    
+    
+            var marker_c40d496a332040d48b3bf1054f55ee5f = L.marker(
+                [59.6749712, 14.5208584],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_c65c6dde73fb44a195918c8bfceab7d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d09c7e21f2bd45559f89a7b4a2ac486f = $(`<div id="html_d09c7e21f2bd45559f89a7b4a2ac486f" style="width: 100.0%; height: 100.0%;">name: Henrik Ahnberg location:Sweden</div>`)[0];
+            popup_c65c6dde73fb44a195918c8bfceab7d0.setContent(html_d09c7e21f2bd45559f89a7b4a2ac486f);
+        
+
+        marker_c40d496a332040d48b3bf1054f55ee5f.bindPopup(popup_c65c6dde73fb44a195918c8bfceab7d0)
+        ;
+
+        
+    
+    
+            var marker_fa4aa08a988f45098612571d9bcaa74a = L.marker(
+                [39.7837304, -100.4458825],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_e08786ef2da44287bff794108cfdfb29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82ffa073f1d54b1dac8fae427582d6a9 = $(`<div id="html_82ffa073f1d54b1dac8fae427582d6a9" style="width: 100.0%; height: 100.0%;">name: Jake Paul location:United States</div>`)[0];
+            popup_e08786ef2da44287bff794108cfdfb29.setContent(html_82ffa073f1d54b1dac8fae427582d6a9);
+        
+
+        marker_fa4aa08a988f45098612571d9bcaa74a.bindPopup(popup_e08786ef2da44287bff794108cfdfb29)
+        ;
+
+        
+    
+    
+            var marker_5127c1ff569a4384a6b7cc65f5a09750 = L.marker(
+                [55.4792046, 37.3273304],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_b52ebdeeea0f4e7bab3d9e95bea43e64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37edf5ecc916485283fa03181a3d9a87 = $(`<div id="html_37edf5ecc916485283fa03181a3d9a87" style="width: 100.0%; height: 100.0%;">name: Artsiom Barshak location:Москва, Россия</div>`)[0];
+            popup_b52ebdeeea0f4e7bab3d9e95bea43e64.setContent(html_37edf5ecc916485283fa03181a3d9a87);
+        
+
+        marker_5127c1ff569a4384a6b7cc65f5a09750.bindPopup(popup_b52ebdeeea0f4e7bab3d9e95bea43e64)
+        ;
+
+        
+    
+    
+            var marker_0ec996f1f7c04780a883cf7791396efe = L.marker(
+                [53.5120412, -2.2434612],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_e7a13c36f15b400cb50b446ce6342aba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13df5ecb278f48278c840b3c07b152c4 = $(`<div id="html_13df5ecb278f48278c840b3c07b152c4" style="width: 100.0%; height: 100.0%;">name: UFC location:Worldwide</div>`)[0];
+            popup_e7a13c36f15b400cb50b446ce6342aba.setContent(html_13df5ecb278f48278c840b3c07b152c4);
+        
+
+        marker_0ec996f1f7c04780a883cf7791396efe.bindPopup(popup_e7a13c36f15b400cb50b446ce6342aba)
+        ;
+
+        
+    
+    
+            var marker_3838b745a0d24f68a4615dc83bfdb4af = L.marker(
+                [53.3497645, -6.2602732],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_21d895b3988442809511eac4315fa3b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7323d7d2e414443aeaca91d3e5177cf = $(`<div id="html_d7323d7d2e414443aeaca91d3e5177cf" style="width: 100.0%; height: 100.0%;">name: Conor McGregor location:Dublin, Ireland</div>`)[0];
+            popup_21d895b3988442809511eac4315fa3b4.setContent(html_d7323d7d2e414443aeaca91d3e5177cf);
+        
+
+        marker_3838b745a0d24f68a4615dc83bfdb4af.bindPopup(popup_21d895b3988442809511eac4315fa3b4)
+        ;
+
+        
+    
+    
+            var marker_845657aaabdd4af7820386ac872c4331 = L.marker(
+                [47.6038321, -122.3300624],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_3130eccccf2e4a7ba63b6995642b212c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1a98433e75c405fa63a45b14463f367 = $(`<div id="html_e1a98433e75c405fa63a45b14463f367" style="width: 100.0%; height: 100.0%;">name: Bill Gates location:Seattle, WA</div>`)[0];
+            popup_3130eccccf2e4a7ba63b6995642b212c.setContent(html_e1a98433e75c405fa63a45b14463f367);
+        
+
+        marker_845657aaabdd4af7820386ac872c4331.bindPopup(popup_3130eccccf2e4a7ba63b6995642b212c)
+        ;
+
+        
+    
+    
+            var marker_88b8e07fe8154f01ab48d4316434336a = L.marker(
+                [45.9683338, -61.4901355],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_3ac2631995444c739794f46b3093209d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e194ae33fbe14f88b13226d4128b0e9a = $(`<div id="html_e194ae33fbe14f88b13226d4128b0e9a" style="width: 100.0%; height: 100.0%;">name: SpaceX location:Hawthorne, CA</div>`)[0];
+            popup_3ac2631995444c739794f46b3093209d.setContent(html_e194ae33fbe14f88b13226d4128b0e9a);
+        
+
+        marker_88b8e07fe8154f01ab48d4316434336a.bindPopup(popup_3ac2631995444c739794f46b3093209d)
+        ;
+
+        
+    
+    
+            var marker_f082992ad3c148698f5d3610bf2eb80b = L.marker(
+                [49.4871968, 31.2718321],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_1fe58c7955aa46e2a39b7583ac272278 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0208239b8e6649ff8324e70cf007dfa7 = $(`<div id="html_0208239b8e6649ff8324e70cf007dfa7" style="width: 100.0%; height: 100.0%;">name: Natus Vincere location:Ukraine</div>`)[0];
+            popup_1fe58c7955aa46e2a39b7583ac272278.setContent(html_0208239b8e6649ff8324e70cf007dfa7);
+        
+
+        marker_f082992ad3c148698f5d3610bf2eb80b.bindPopup(popup_1fe58c7955aa46e2a39b7583ac272278)
+        ;
+
+        
+    
+    
+            var marker_2250a7031a19434f925fac10df243882 = L.marker(
+                [49.4871968, 31.2718321],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_d3ca13168d5f4a128edc1b1802f6f81b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f725f5a80104e038f172dee5db62683 = $(`<div id="html_2f725f5a80104e038f172dee5db62683" style="width: 100.0%; height: 100.0%;">name: Yevhen Zolotarov location:Украина</div>`)[0];
+            popup_d3ca13168d5f4a128edc1b1802f6f81b.setContent(html_2f725f5a80104e038f172dee5db62683);
+        
+
+        marker_2250a7031a19434f925fac10df243882.bindPopup(popup_d3ca13168d5f4a128edc1b1802f6f81b)
+        ;
+
+        
+    
+    
+            var marker_8cf572d6e80e46aca516dfd899ae4139 = L.marker(
+                [49.841952, 24.0315921],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_379919afb9ec45ffb7b1b5c369c008eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdd61ef4c47747989c52168fc7787aa2 = $(`<div id="html_fdd61ef4c47747989c52168fc7787aa2" style="width: 100.0%; height: 100.0%;">name: Danil Ishutin location:Ukraine Lviv</div>`)[0];
+            popup_379919afb9ec45ffb7b1b5c369c008eb.setContent(html_fdd61ef4c47747989c52168fc7787aa2);
+        
+
+        marker_8cf572d6e80e46aca516dfd899ae4139.bindPopup(popup_379919afb9ec45ffb7b1b5c369c008eb)
+        ;
+
+        
+    
+    
+            var marker_4432760839d949eea7dcb1a67b2f2ee5 = L.marker(
+                [50.4500336, 30.5241361],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_06df082dc7d6473b890809e6900469e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a06fc0367b94dda8b88595098741e6e = $(`<div id="html_7a06fc0367b94dda8b88595098741e6e" style="width: 100.0%; height: 100.0%;">name: Olexandr dashkevych location:Kiev, Ukraine</div>`)[0];
+            popup_06df082dc7d6473b890809e6900469e8.setContent(html_7a06fc0367b94dda8b88595098741e6e);
+        
+
+        marker_4432760839d949eea7dcb1a67b2f2ee5.bindPopup(popup_06df082dc7d6473b890809e6900469e8)
+        ;
+
+        
+    
+    
+            var marker_ec58e73db2be4cafb14bbad54a7eec5c = L.marker(
+                [50.4500336, 30.5241361],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_c26498e6832142bf99e66837ddfb9074 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67758d06e14844f3bb97caacad2daecc = $(`<div id="html_67758d06e14844f3bb97caacad2daecc" style="width: 100.0%; height: 100.0%;">name: Vitalii Volochai location:Kyiv, Ukraine</div>`)[0];
+            popup_c26498e6832142bf99e66837ddfb9074.setContent(html_67758d06e14844f3bb97caacad2daecc);
+        
+
+        marker_ec58e73db2be4cafb14bbad54a7eec5c.bindPopup(popup_c26498e6832142bf99e66837ddfb9074)
+        ;
+
+        
+    
+    
+            var marker_c54e6939b6e24539b9dadcf5b8ad7687 = L.marker(
+                [55.4792046, 37.3273304],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_418c6d982e024e52afb497113a36628f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf299ae6706244818fa698e1baff6daa = $(`<div id="html_bf299ae6706244818fa698e1baff6daa" style="width: 100.0%; height: 100.0%;">name: Yaroslav Kuznetsov location:Moscow</div>`)[0];
+            popup_418c6d982e024e52afb497113a36628f.setContent(html_bf299ae6706244818fa698e1baff6daa);
+        
+
+        marker_c54e6939b6e24539b9dadcf5b8ad7687.bindPopup(popup_418c6d982e024e52afb497113a36628f)
+        ;
+
+        
+    
+    
+            var marker_7ecf4bc5c3264a0fb41fb5697a115e73 = L.marker(
+                [48.6223502, 22.3021255],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_fc27c79a2cdd473a8d2cc9c2f0035393 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e6407e0e8494e2aa7efd84329b2b265 = $(`<div id="html_0e6407e0e8494e2aa7efd84329b2b265" style="width: 100.0%; height: 100.0%;">name: Viktor Nigrini location:Ukraine, Uzhhorod</div>`)[0];
+            popup_fc27c79a2cdd473a8d2cc9c2f0035393.setContent(html_0e6407e0e8494e2aa7efd84329b2b265);
+        
+
+        marker_7ecf4bc5c3264a0fb41fb5697a115e73.bindPopup(popup_fc27c79a2cdd473a8d2cc9c2f0035393)
+        ;
+
+        
+    
+    
+            var marker_544178dec3f64e8b8baa4e79b47ac129 = L.marker(
+                [31.9515694, 35.9239625],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_babdf631eca244d8b879baca8245f3b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f46feb40cd04dad99612518738c9ffa = $(`<div id="html_6f46feb40cd04dad99612518738c9ffa" style="width: 100.0%; height: 100.0%;">name: Miracle- location:Amman</div>`)[0];
+            popup_babdf631eca244d8b879baca8245f3b4.setContent(html_6f46feb40cd04dad99612518738c9ffa);
+        
+
+        marker_544178dec3f64e8b8baa4e79b47ac129.bindPopup(popup_babdf631eca244d8b879baca8245f3b4)
+        ;
+
+        
+    
+    
+            var marker_d59b9f1e6ea8430fb5d4204eb05ea713 = L.marker(
+                [64.6863136, 97.7453061],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_e4a5d7f0e0e64f949b9f10a9d22180aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d008315457874130ae6d879bd41a0047 = $(`<div id="html_d008315457874130ae6d879bd41a0047" style="width: 100.0%; height: 100.0%;">name: Aleksey Berezin location:Russia</div>`)[0];
+            popup_e4a5d7f0e0e64f949b9f10a9d22180aa.setContent(html_d008315457874130ae6d879bd41a0047);
+        
+
+        marker_d59b9f1e6ea8430fb5d4204eb05ea713.bindPopup(popup_e4a5d7f0e0e64f949b9f10a9d22180aa)
+        ;
+
+        
+    
+    
+            var marker_16230d16b64b463686c1be4da5eae122 = L.marker(
+                [55.0282171, 82.9234509],
+                {"color": "green", "fillColor": "green", "fillOpacity": 0.5, "radius": 5}
+            ).addTo(feature_group_2feffb8396dd40428978838030e48617);
+        
+    
+        var popup_bdca36473b434b61b2467ec410893dd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52da923f809f4cda9a0de0328d660e67 = $(`<div id="html_52da923f809f4cda9a0de0328d660e67" style="width: 100.0%; height: 100.0%;">name: Roman Kushnarev location:Новосибирск, Россия</div>`)[0];
+            popup_bdca36473b434b61b2467ec410893dd6.setContent(html_52da923f809f4cda9a0de0328d660e67);
+        
+
+        marker_16230d16b64b463686c1be4da5eae122.bindPopup(popup_bdca36473b434b61b2467ec410893dd6)
+        ;
+
+        
+    
+</script>
